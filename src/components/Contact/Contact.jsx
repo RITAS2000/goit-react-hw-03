@@ -4,7 +4,7 @@ import { AiFillPhone } from 'react-icons/ai';
 export default function Contact({ name, phone, onClick }) {
   return (
     <div className={css.container}>
-      <div>
+      <div className={css.textContainer}>
         <div className={css.iconAndText}>
           <IoMdPerson className={css.icon} /> <p className={css.text}>{name}</p>
         </div>

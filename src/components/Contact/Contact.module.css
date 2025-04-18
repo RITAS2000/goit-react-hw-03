@@ -11,6 +11,11 @@
     border-radius: 6px;
   
 }
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .text {
     width: 220px;
     font-family: 'Bitter', serif;
