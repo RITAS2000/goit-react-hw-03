@@ -69,8 +69,14 @@
     position: absolute;
     top:36px;
     right: 10px;
-    fill: #086a83;
+    fill: #139cbe;
     width: 24px;
     height: 24px;
+    transition: fill 0.3s ease;
 
+}
+
+.label:hover .icon,
+.label:focus-within .icon {
+    fill: #086a83;
 }
